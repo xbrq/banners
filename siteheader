@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>banners</title>
+  <link rel="stylesheet" href="style.css" />
+  <style></style>
+</head>
+
+<body>
+
+ <input id="searchbar" onkeyup="search_item()" type="text"
+  name="search" placeholder="Search banners...">
+
+ <p><b>Results: <span id="hits">{}</span></b></p>
+ <p>Images excluded: <span id="punts">0</span></p>
+
+ <p>Broken images: <span id="brokenImages">0</span></p>
+ 
+
+
+
